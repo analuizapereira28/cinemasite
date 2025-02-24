@@ -1,0 +1,149 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.reserve {
+    color: red;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.seat-grid-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.seat-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    padding: 20px;
+    width: auto;
+    max-width: 100%;
+}
+
+.column-labels {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #EBEBEB;
+    padding: 15px 0;
+    border-radius: 10px;
+}
+
+.column-labels span {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.seat-grid-container-inner {
+    display: flex;
+}
+
+.row-labels {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 25px;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    gap: 30px;
+}
+
+.seat-grid {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    gap: 12px;
+}
+
+.assento {
+    width: 45px;
+    height: 45px;
+    background-color: #B00003;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.assento-cadeirante {
+    background-color: #B0AFAF;
+    font-size: 24px;
+}
+
+.assento-namoradeira {
+    background-color: #B00003;
+    font-size: 24px;
+}
+
+.rodapé {
+    background-color: #A01E20;
+    padding: 25px;
+    padding-top: -90px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -30px;
+    gap: 20px;
+    width: 1690px; 
+    height: 220px;
+    max-width: 100%; /* Remove qualquer limite de largura */
+    background-size: 100% 100%; /* Ajuste para ocupar toda a largura e altura */
+    background-repeat: no-repeat; /* Evita a repetição do fundo */
+}
+
+.rodapé p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-links a:nth-child(3) img {
+    width: 40px;
+    height: 40px;
+}
